@@ -6,4 +6,7 @@ We consider the problem of constructing exact goodness-of-fit tests for discrete
 The discovered moves can be used to efficiently obtain an exchangeable sample, significantly cutting computational times with regards to statistical testing.
 
 
+One of the examples we consider is the coauthorship dataset. This dataset is given in the form a graph where each node is an author and there exists an edge between two nodes if the two corresponding authors worked on a paper together. We are interested in verifying whether the data follows the beta model.
+
+
 ![Example Image](images/Rplot-Coauthor-NextComponent.png)  ![Example Image](images/ChiSquare_Node_23.png) 
