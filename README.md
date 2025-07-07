@@ -6,3 +6,4 @@ We consider the problem of constructing exact goodness-of-fit tests for discrete
 The discovered moves can be used to efficiently obtain an exchangeable sample, significantly cutting computational times with regards to statistical testing.
 
 
+![Example Image](images/example.png)
