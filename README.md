@@ -9,4 +9,9 @@ The discovered moves can be used to efficiently obtain an exchangeable sample, s
 One of the examples we consider is the coauthorship dataset. This dataset is given in the form a graph where each node is an author and there exists an edge between two nodes if the two corresponding authors worked on a paper together. We are interested in verifying whether the data follows the beta model.
 
 
+<p float="left">
+  <img src="images/Rplot-Coauthor-NextComponent.png" width="45%" />
+  <img src="images/ChiSquare_Node_23.png" width="45%" />
+</p>
+
 ![Example Image](images/Rplot-Coauthor-NextComponent.png)  ![Example Image](images/ChiSquare_Node_23.png) 
