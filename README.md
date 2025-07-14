@@ -13,3 +13,12 @@ One of the examples we consider is the coauthorship dataset. This dataset is giv
   <img src="images/Rplot-Coauthor-NextComponent.png" width="45%" />
   <img src="images/ChiSquare_Node_23.png" width="45%" />
 </p>
+
+
+How to use the code:
+
+- Download the whole repository and run the Gaussian A2C Fiber Sampling notebook.
+- In this notebook you can define sampling for 4 different problems. For custome problems, you need to define the design matrix $A$, initial solution $x_0$ and margin $Ax = b$. Then extract the lattice basis.
+- After computing the lattice basis, simply run the trainig cell and the RL will start training.
+- In the end of the notebook, you can load the trained policy, rerun it on the same fiber and compute the random sample from the fiber.
+- Finally, the code computes the emprical chi-square distribution for the given sample.
