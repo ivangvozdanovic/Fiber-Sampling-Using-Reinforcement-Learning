@@ -13,5 +13,3 @@ One of the examples we consider is the coauthorship dataset. This dataset is giv
   <img src="images/Rplot-Coauthor-NextComponent.png" width="45%" />
   <img src="images/ChiSquare_Node_23.png" width="45%" />
 </p>
-
-![Example Image](images/Rplot-Coauthor-NextComponent.png)  ![Example Image](images/ChiSquare_Node_23.png) 
