@@ -14,6 +14,24 @@ One of the examples we consider is the coauthorship dataset. This dataset is giv
   <img src="images/ChiSquare_Node_23.png" width="45%" />
 </p>
 
+---
+
+## Project Structure
+
+```
+GaussianAC/
+├── data.py # Data loading, splitting, preprocessing
+├── models.py # Finetuned LLM definition
+├── train.py # Training pipeline with Ray + MLflow
+├── predict.py # CLI-based inference and checkpoint loading
+├── evaluate.py # Model evaluation functions
+├── serve_app.py # API server for deployment (FastAPI + Ray Serve)
+├── config.py # Configuration constants and logging
+├── utils.py # Utility functions (saving, loading, formatting)
+
+```
+
+---
 
 How to use the code:
 
