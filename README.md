@@ -20,22 +20,29 @@ One of the examples we consider is the coauthorship dataset. This dataset is giv
 
 ```
 GaussianAC/
-├── data.py # Data loading, splitting, preprocessing
-├── models.py # Finetuned LLM definition
-├── train.py # Training pipeline with Ray + MLflow
-├── predict.py # CLI-based inference and checkpoint loading
-├── evaluate.py # Model evaluation functions
-├── serve_app.py # API server for deployment (FastAPI + Ray Serve)
-├── config.py # Configuration constants and logging
-├── utils.py # Utility functions (saving, loading, formatting)
-
+├── DeepFiberSamplingGaussianENV.py# RL environment
+├── Gaussian A2C Fiber Sampling.ipynb # Main notebook from where to run the code.
+├── GaussianA2C.py # Model code, model initialization and training.
+├── helper_functions.py # Helper functions for the data preparation.
+├── reward_functions.py # Different reward functions.
+├── stats_functions.py # Functions for processing the design matrix and moves.
+├── stats_problems.py # Different statistical problems and fibers.
+└── README.md
 ```
 
 ---
 
 How to use the code:
 
-- Download the whole repository and run the Gaussian A2C Fiber Sampling notebook.
+- Clone the whole repository.
+```
+git clone <repo http>
+```
+
+-  Run the notebook:
+```
+  Gaussian A2C Fiber Sampling notebook.ipynb
+```
 - In this notebook you can define sampling for 4 different problems. For custome problems, you need to define the design matrix $A$, initial solution $x_0$ and margin $Ax = b$. Then extract the lattice basis.
 - After computing the lattice basis, simply run the trainig cell and the RL will start training.
 - In the end of the notebook, you can load the trained policy, rerun it on the same fiber and compute the random sample from the fiber.
