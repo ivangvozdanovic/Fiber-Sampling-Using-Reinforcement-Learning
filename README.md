@@ -1,4 +1,6 @@
-# Fiber-Sampling-Using-Reinforcement-Learning
+---
+
+## Fiber-Sampling-Using-Reinforcement-Learning
 
 The code in this repo is for the paper: "Learning to sample fibers for goodness-of-fit testing". (https://arxiv.org/abs/2405.13950)
 
@@ -32,7 +34,7 @@ GaussianAC/
 
 ---
 
-How to use the code:
+## How to use the code:
 
 - Clone the whole repository.
 ```
